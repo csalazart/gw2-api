@@ -10,6 +10,9 @@ The goal is to provide some convenience methods around getting things out of the
 
 The `gw2` package comes with 2 objects exported. `gw2` is the actual interface to the API with a default storage mechanism of `localStorage`. Since this isn't available in all applications, it also provides `memStore`, which simply caches things in RAM. Storage can also be disabled by calling `api.setCache(false)`.
 
+## Installation
+ The Install this module on node project ```npm i @cthos/gw2-api``` 
+
 ## API Documentation
 
 [Static API Documentation Page](http://cthos.github.com/gw2-api)
